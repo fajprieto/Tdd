@@ -1,0 +1,19 @@
+unit IActuadorBrazo;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+  published
+    tiActuadorBrazo=interface
+      procedure Bajar;
+      procedure Levantar;
+    end;
+implementation
+
+end.
+
